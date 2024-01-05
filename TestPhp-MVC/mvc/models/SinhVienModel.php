@@ -9,6 +9,8 @@ class SinhVienModel extends Db {
     public function SinhVien() {
      $query = "SELECT * FROM sinhvien";
      return mysqli_query($this->con , $query);   
+     echo "SinhVien";
     }
+    
 }
 ?>
